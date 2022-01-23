@@ -97,3 +97,4 @@ umask 002
 
 source /opt/ros/melodic/setup.bash
 export PS1="\[\033[1;35m\]ck-ros> \[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$"
+export LIBGL_ALWAYS_SOFTWARE=1
