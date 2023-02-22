@@ -118,5 +118,5 @@ plugins=(git)
 source $ZSH/oh-my-zsh.sh
 
 
-source /opt/ros/noetic/setup.bash
+source /opt/ros/noetic/setup.zsh
 export LIBGL_ALWAYS_SOFTWARE=1
